@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: #dcf;
+    font-family: 'Corben', cursive;
+}
+
+#wrapper {
+    background: #c00;
+    /* display: flex;
+    flex-direction: column; */
+    /* height: 100vh; */
+}    
+/* 
+#question{
+    font-size: 2em;
+}
+
+#answer{
+    font-size: 5em;
+    text-align: right;
+} */
