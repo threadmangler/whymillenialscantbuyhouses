@@ -1,25 +1,43 @@
-html {
+html, body {
     height: 100%;
+    margin: 0;
 }
 
 body {
-    min-height: 100%;
-    background: #dcf;
-    font-family: 'Corben', cursive;
+    font-family: 'Architects Daughter', sans-serif;
+    background: rgb(22, 187, 44);
+    background-image: url("nur-afni-setiyaningrum-50103-unsplash.jpg")
 }
 
 #wrapper {
-    background: #c00;
-    /* display: flex;
-    flex-direction: column; */
-    /* height: 100vh; */
-}    
-/* 
-#question{
-    font-size: 2em;
+    padding: 1em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: rgb(200, 200, 200);
+    background: rgb(30, 30, 30);
+    background: rgba(30, 30, 30, .7);
 }
 
-#answer{
-    font-size: 5em;
-    text-align: right;
-} */
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(180, 180, 180);
+}
+
+
+footer {
+    margin: auto auto 0 0;
+}
