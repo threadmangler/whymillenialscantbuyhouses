@@ -1,32 +1,27 @@
 html, body {
-    height: 100%;
     margin: 0;
 }
 
 body {
     font-family: 'Architects Daughter', sans-serif;
-    background: rgb(22, 187, 44);
-    background-image: url("nur-afni-setiyaningrum-50103-unsplash.jpg")
+    background: rgb(22, 187, 44) url("nur-afni-setiyaningrum-50103-unsplash.jpg");
+    font-size:10px;
 }
 
-#wrapper {
-    padding: 1em;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
+.wrapper {
+    min-height:56em;
+    padding: 2em;
     color: rgb(200, 200, 200);
-    background: rgb(30, 30, 30);
+ /*   background: rgb(30, 30, 30); */
     background: rgba(30, 30, 30, .7);
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 5.5em;
 }
 
 h2 {
-    font-size: 3.5em;
+    font-size: 10em;
 }
 
 a:link {
@@ -40,4 +35,29 @@ a:visited {
 
 footer {
     margin: auto auto 0 0;
+    padding-bottom:1em;
+    font-size:1.8em;
+}
+
+
+@media screen and (max-width:800px) {
+    .wrapper{min-height:61em;}
+
+    h1 {font-size: 3em;}
+    
+    h2 {font-size: 6em;} 
+
+    footer {font-size:1.2em;}
+    footer p {width:36em;}
+}
+
+@media screen and (max-width:650px) {
+   .wrapper{min-height:61em;}
+   
+    h1 {font-size: 2.5em;}
+    
+    h2 {font-size: 4em;} 
+
+    footer {font-size:1.2em;}
+    footer p {width:36em;}
 }
