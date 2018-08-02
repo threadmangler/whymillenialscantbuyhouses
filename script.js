@@ -1,6 +1,6 @@
 var partOne = ["It's all the", "Excessive", "They won't give up", "Overspending on", "Overpriced"]
 var partTwo = ["rainbow", "glitter", "goat", "dog", "artisanal", "avocado", "designer", "eco-friendly"]
-var partThree = ["yoga", "lattes", "parties", "weddings", "cupcakes", "man buns", "beer", "iPhones"]
+var partThree = ["yoga", "lattes", "parties", "weddings", "cupcakes", "man&nbsp;buns", "beer", "iPhones"]
 
 // alert(Math.random())
 window.onload = function(){
